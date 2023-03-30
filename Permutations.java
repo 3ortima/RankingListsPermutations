@@ -74,7 +74,8 @@ class Permutations {
 //      When the second proposal was denied.
 
 //        if ((i < j - 1) && (((k < j) && (k >= j - 1))|| (k > j + 1)))
-//            counterL1++;
+//            counterL1++;        //here I made more limitations
+//        // in order to count only once the cases in the intersection of the both possible orders of the 2 first doctors.
 //        if ((i < j - 2) && (((k < j) && (k >= j - 2))|| (k > j + 2)))
 //            counterL2++;
 //        if ((i < j - 3) && (((k < j) && (k >= j - 3))|| (k > j + 3)))
